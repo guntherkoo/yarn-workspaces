@@ -1,12 +1,12 @@
 {
 	"name": "@koo/server",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"main": "index.js",
 	"license": "MIT",
 	"scripts": {
 		"test": "echo testing common with version: $npm_package_version"
 	},
 	"dependencies": {
-		"@koo/common": "1.0.0"
+		"@koo/common": "^1.0.1"
 	}
 }
