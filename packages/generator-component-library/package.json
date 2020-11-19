@@ -1,6 +1,6 @@
 {
   "name": "generator-component-library",
-  "version": "0.0.1",
+  "version": "1.0.3",
   "description": "A Yeoman generator for component library",
   "repository": {
     "type": "git",
