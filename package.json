@@ -1,5 +1,6 @@
 {
 	"name": "yarn-workspaces",
+	"author": "Gunther Koo",
 	"version": "1.0.0",
 	"private": true,
 	"workspaces": [
@@ -7,9 +8,11 @@
 	],
 	"main": "index.js",
 	"scripts": {
-		"test": "lerna run test --scope=@koo/common",
+		"test": "lerna run test",
 		"new-version": "lerna version --conventional-commits --yes",
-		"diff": "lerna diff"
+		"diff": "lerna diff",
+		"common": "lerna run dev --scope=@koo/common",
+    	"scaffold": "lerna exec --scope generator-component-library scaffold-component"
 	},
 	"license": "MIT",
 	"devDependencies": {
