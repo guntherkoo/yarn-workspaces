@@ -4,7 +4,7 @@ module.exports = {
 	testEnvironment: 'jsdom',
 	testMatch: ['<rootDir>/components/**/*.test.jsx'],
 	transformIgnorePatterns: [
-		'/node_modules/(?!@tr)',
+		'/node_modules/(?!@koo)',
     ],
 	setupFilesAfterEnv: [
 		'<rootDir>/jest.setup.js',
@@ -13,5 +13,5 @@ module.exports = {
 		'\\.(css|scss)$': 'identity-obj-proxy',
 	},
 	bail: true,
-	displayName: 'rcom-raptorui-common',
+	displayName: 'ui-common',
 };
