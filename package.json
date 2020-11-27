@@ -3,18 +3,16 @@
 	"author": "Gunther Koo",
 	"version": "1.0.0",
 	"private": true,
-	"workspaces": [
-		"packages/*"
-	],
-	"main": "index.js",
 	"scripts": {
 		"test": "lerna run test",
 		"new-version": "lerna version --conventional-commits --yes",
 		"diff": "lerna diff",
-		"common": "lerna run dev --scope=@koo/common",
-    	"scaffold": "lerna exec --scope generator-component-library scaffold-component"
+    	"scaffold": "lerna exec --scope @koo/component-generator scaffold-component"
 	},
 	"license": "MIT",
+	"workspaces": [
+		"packages/*"
+	],
 	"devDependencies": {
 		"lerna": "^3.22.1"
 	}

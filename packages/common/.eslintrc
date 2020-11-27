@@ -1,4 +1,0 @@
-{
-	"parser": "babel-eslint",
-	"extends": "@tr/eslint-config-raptor"
-}

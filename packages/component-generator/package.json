@@ -1,5 +1,5 @@
 {
-  "name": "generator-component-library",
+  "name": "@koo/component-generator",
   "version": "1.0.3",
   "description": "A Yeoman generator for component library",
   "repository": {
@@ -15,8 +15,8 @@
   "keywords": [
     "yeoman-generator"
   ],
-  "author": "Reuters Consumer Engineering",
-  "license": "ISC",
+  "author": "Gunther Koo",
+  "license": "MIT",
   "dependencies": {
     "gulp-rename": "1.2.2",
     "yeoman-environment": "2.10.3",

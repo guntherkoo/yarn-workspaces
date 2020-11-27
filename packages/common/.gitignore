@@ -1,7 +1,0 @@
-.DS_Store
-node_modules
-*.log
-npm-debug.log
-package-lock.json
-.npmrc
-dist
