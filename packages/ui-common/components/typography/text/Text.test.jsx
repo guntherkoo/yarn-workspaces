@@ -5,7 +5,7 @@ import {
 	screen,
 } from '@testing-library/react';
 
-import Text from '../text';
+import Text from './Text';
 
 
 describe('Text Tests', () => {

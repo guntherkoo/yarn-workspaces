@@ -3,10 +3,10 @@
 	"author": "Gunther Koo",
 	"private": true,
 	"scripts": {
-		"test": "lerna run test",
+		"common": "lerna exec --scope @koo/ui-common -- npm run dev",
+		"test": "lerna exec --scope @koo/ui-* -- npm run test",
 		"new-version": "lerna version --conventional-commits --yes",
 		"diff": "lerna diff",
-		"common": "lerna exec --scope @koo/ui-common -- npm run dev",
 		"scaffold": "lerna exec --scope @koo/component-generator scaffold-component"
 	},
 	"workspaces": [

@@ -5,7 +5,7 @@ import {
 	screen,
 } from '@testing-library/react';
 
-import Paragraph from '../paragraph';
+import Paragraph from './Paragraph';
 
 
 describe('Paragraph Tests', () => {
