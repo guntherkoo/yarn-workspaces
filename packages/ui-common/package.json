@@ -1,6 +1,6 @@
 {
   "name": "@koo/ui-common",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React-based UI library of commonly used view components.",
   "scripts": {
     "dev": "start-storybook -c .storybook -s ./ -p 9001",
@@ -39,6 +39,7 @@
     "@babel/core": "7.9.0",
     "@babel/plugin-proposal-export-default-from": "7.8.3",
     "@babel/preset-react": "7.9.4",
+    "@koo/eslint-config-raptor": "^1.0.1",
     "@storybook/addon-a11y": "6.0.28",
     "@storybook/addon-actions": "6.0.28",
     "@storybook/addon-backgrounds": "6.0.28",
@@ -47,7 +48,6 @@
     "@storybook/addon-viewport": "6.0.28",
     "@storybook/cli": "6.0.28",
     "@storybook/react": "6.0.28",
-    "@koo/eslint-config-raptor": "1.0.0",
     "autoprefixer": "9.4.8",
     "babel-eslint": "10.1.0",
     "babel-loader": "8.1.0",
