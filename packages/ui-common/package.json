@@ -1,6 +1,6 @@
 {
   "name": "@koo/ui-common",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React-based UI library of commonly used view components.",
   "scripts": {
     "dev": "start-storybook -c .storybook -s ./ -p 9001",
