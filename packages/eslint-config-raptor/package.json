@@ -1,0 +1,24 @@
+{
+	"name": "@koo/eslint-config-raptor",
+	"version": "1.0.0",
+	"description": "ESLint shareable config",
+	"license": "MIT",
+	"author": "Gunther Koo",
+	"engines": {
+		"node": ">=10"
+	},
+	"keywords": [
+		"eslint",
+		"eslintconfig"
+	],
+	"devDependencies": {
+		"eslint": "^7.4.0",
+		"eslint-plugin-react": "^7.20.3",
+		"eslint-plugin-react-hooks": "^4.0.8"
+	},
+	"peerDependencies": {
+		"eslint": ">=7.4.0",
+		"eslint-plugin-react": ">=7.20.3",
+		"eslint-plugin-react-hooks": ">=4.0.8"
+	}
+}

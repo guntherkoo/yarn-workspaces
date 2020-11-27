@@ -8,7 +8,7 @@ module.exports = class extends Generator {
 			{
 				type: 'input',
 				name: 'package_name',
-				message: 'Which package to add this new component? (example: common)',
+				message: 'Which package to add this new component? (example: ui-common)',
 				validate: input => {
 					const folder_name = input;
 					const package_json = `${folder_name}/package.json`;

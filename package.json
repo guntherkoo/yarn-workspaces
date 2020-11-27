@@ -1,19 +1,22 @@
 {
 	"name": "yarn-workspaces",
 	"author": "Gunther Koo",
-	"version": "1.0.0",
 	"private": true,
 	"scripts": {
 		"test": "lerna run test",
 		"new-version": "lerna version --conventional-commits --yes",
 		"diff": "lerna diff",
-    	"scaffold": "lerna exec --scope @koo/component-generator scaffold-component"
+		"common": "lerna exec --scope @koo/ui-common -- npm run dev",
+		"scaffold": "lerna exec --scope @koo/component-generator scaffold-component"
 	},
-	"license": "MIT",
 	"workspaces": [
 		"packages/*"
 	],
 	"devDependencies": {
 		"lerna": "^3.22.1"
+	},
+	"dependencies": {
+		"fetch-mock": "^9.10.7",
+		"gulp": "^4.0.2"
 	}
 }
